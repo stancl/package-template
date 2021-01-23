@@ -1,17 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Stancl\Package;
 
 use Illuminate\Support\ServiceProvider;
 
 class PackageServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function register(): void
     {
-
     }
 
-    public function boot()
+    public function boot(): void
     {
         // $this->loadViewsFrom(__DIR__ . '/../assets/views', 'package');
 
