@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Stancl\Package;
 
 use Illuminate\Support\ServiceProvider;
@@ -8,7 +10,6 @@ class PackageServiceProvider extends ServiceProvider
 {
     public function register()
     {
-
     }
 
     public function boot()
